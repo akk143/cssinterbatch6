@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+    <style type="text/css">
+        body{
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        table,th,td{
+            border: 2px solid #000;
+        }
+        thead{
+            background-color: rgba(20, 181, 245, 0.8);
+        }
+        tr:nth-of-type(odd){
+            background-color: rgb(213, 212, 212,0.4);
+        }
+        tbody tr td:nth-of-type(even){
+            width: 200px;
+        }
+        th,td{
+            width: 100px;
+            height: 100px;
+            padding: 2px 5px;
+
+        }
+        tr:hover{
+            background-color: #1dc5e3;
+            transition: 2s;
+        }
+        tbody{
+            text-align: center;
+            vertical-align: center;
+        }
+
+    </style>
+</head>
+
+<body>
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>No</th>
+                <th>Name</th>
+                <th>City</th>
+                <th>Phone</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>1</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Zaw Zaw</td>
+                <td>Yangon</td>
+                <td>09-134242</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+</body>
+</html>
